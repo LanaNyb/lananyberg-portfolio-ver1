@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Lana Nyberg Portfolio Page</title>
+</head>
+
+<body>
+    <!-- div containing nav and hero -->
+    <div class="navhero-wrap">
+         <!-- nav bar -->
+        <div class="hero-container">
+            <nav>
+                <a href="#portfolio-section" class="link">portfolio</a>
+                <a href="#contact-section" class="link">contact</a>
+                <a href="https://www.linkedin.com/in/lananyberg/" class="linkedin"><img src="./images/Icon awesome-linkedin.png" alt=""></a>
+            </nav>
+             <!-- hero section -->
+            <div class="hero-content">
+                <h1 class="lana">lana</h1>
+                <h1 class="nyberg">nyberg.</h1>
+            </div>
+        </div>            
+    </div>
+
+    <!-- portfolio section -->
+    <section class="portfolio-section" id="portfolio-section">
+        <div class="portfolio-wrap">
+            <h2>portfolio.</h2>
+            <!-- First row, three cards -->
+            <div class="portfolio-row" id="portfolio-row1">
+                <div class="portfolio-card" id="portfolio-card1">
+                    <img src="./images/01 personal portfolio page.png" alt="">
+                    <div class="pbox1">
+                        <p>personal portfolio page</p>
+                    </div>
+                </div>
+                <div class="portfolio-card" id="portfolio-card2">
+                    <img src="./images/02 Technical Documentation page.png" alt="">
+                    <div class="pbox2">
+                        <p>technical documentation page</p>
+                    </div>
+                </div>
+                <div class="portfolio-card" id="portfolio-card3">
+                    <img src="./images/03 Product Landing Page.png" alt="">
+                    <div class="pbox3">
+                        <p>product landing page</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Secound row, two cards -->
+            <div class="portfolio-row" id="portfolio-row2">
+                <div class="portfolio-card" id="portfolio-card4">
+                    <img src="./images/04 Survey Form.png" alt="">
+                    <div class="pbox4">
+                        <p>survey form</p>
+                    </div>
+                </div>
+                <div class="portfolio-card" id="portfolio-card5">
+                    <img src="./images/05 Tribute Page.png" alt="">
+                    <div class="pbox5">
+                        <p>tribute page</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact-section" id="contact-section">
+        <h2>contact.</h2>
+        <div class="contact-wrap">
+            <div class="form-wrap">
+                <form action="" class="contact-form">
+                    <div class="lr-contact-form">
+                        <div class="left-contact-form">
+                            <input class="left-input" type="text" placeholder="name*" required>
+                            <input class="left-input" type="email" placeholder="email*" required>
+                            <input class="left-input" type="text" placeholder="subject">
+                        </div>
+                        <div class="right-contact-form">
+                            <textarea name="message" type="text" id="input-message" placeholder="message*"></textarea>
+                        </div>              
+                    </div>
+                    <input type="submit" value="submit" id="input-submit">
+                </form>
+            </div>           
+        </div>
+
+    </section>
+
+
+    
+</body>
+
+</html>
